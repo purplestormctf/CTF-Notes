@@ -105,7 +105,7 @@ $ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110
   - Then download the `CA Certificate`.
   - Depending on your browser, switch to `settings` and then to `certificates`.
   - Import the `certificate`.
-  - We recommend to use FoxyProxy(https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) and configure it there but you can also go with the `proxy settings` of your browser.
+  - We recommend to use [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) and configure it there but you can also go with the `proxy settings` of your browser.
 
 | Setting | Value |
 | --- | --- |
