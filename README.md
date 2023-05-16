@@ -8,12 +8,12 @@ This repository will contain various notes, code snippets, hints and different s
 
 ### Table of Contents
 
-- [Where to start]()
-- [Basic Knowledge]()
-- [First Steps]()
-- [Checklist]()
-- [Tool Recommendations]()
-- [acking Resources & Tutorials]()
+- [Where to start](https://github.com/purplestormctf/CTF-Notes/tree/main#where-to-start)
+- [Basic Knowledge](https://github.com/purplestormctf/CTF-Notes/tree/main#basic-knowledge)
+- [First Steps](https://github.com/purplestormctf/CTF-Notes/tree/main#first-steps)
+- [Checklist](https://github.com/purplestormctf/CTF-Notes/tree/main#checklist)
+- [Tool Recommendations](https://github.com/purplestormctf/CTF-Notes/tree/main#tool-recommendations)
+- [Hacking Resources & Tutorials](https://github.com/purplestormctf/CTF-Notes/tree/main#hacking-resources--tutorials)
 
 #### Where to Start
 
