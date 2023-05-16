@@ -75,7 +75,7 @@ $ sudo nmap -sV -sU <RHOST>
 
 2. If a webserver is available, check `robots.txt`.
 
-> http://<RHOST>/robots.txt
+> http://RHOST/robots.txt
 
 3. Also, give `whatweb` a try.
 
