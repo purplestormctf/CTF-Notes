@@ -13,11 +13,12 @@ This repository will contain various notes, code snippets, hints and different s
 - [First Steps](https://github.com/purplestormctf/CTF-Notes/tree/main#first-steps)
 - [Checklist](https://github.com/purplestormctf/CTF-Notes/tree/main#checklist)
 - [Tool Recommendations](https://github.com/purplestormctf/CTF-Notes/tree/main#tool-recommendations)
+- [Trainings](https://github.com/purplestormctf/CTF-Notes/tree/main#trainings)
 - [Hacking Resources & Tutorials](https://github.com/purplestormctf/CTF-Notes/tree/main#hacking-resources--tutorials)
 
-#### Where to Start
+### Where to Start
 
-##### Basic Knowledge
+#### Basic Knowledge
 
 - It is recommended to work in a virtual environment like an `Kali Linux` instance running on `VirtualBox` or `VMware Player`.
 - Make sure you downloaded the correct `.ovpn` file to connect to the network and access your box.
@@ -38,7 +39,7 @@ $ sudo openvpn /PATH/TO/OVPNFILE/<USERNAME>.ovpn
 $ sudo apt-get install kali-linux-everything
 ```
 
-##### First Steps
+#### First Steps
 
 There are some basic things you should be aware about when you approaching a new box.
 
@@ -61,7 +62,7 @@ There are some basic things you should be aware about when you approaching a new
 $ searchsploit <APPLICATION>
 ```
 
-##### Checklist
+#### Checklist
 
 Depending on what a box offers to you, you can go through the following checklist.
 
@@ -118,7 +119,7 @@ $ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110
   - Switch to the `Proxy` tab, move to `Intercept` and click on `Intercept is off` to enable it.
   - At last switch the proxy in `FoxyProxy` to the `Burp Suite configuration` and access the website. Now you can intercept the web traffic coming from and going to the box and modify as you want.
 
-##### Tool Recommendations
+#### Tool Recommendations
 
 Below you find just a few tools to start with. Of course this is not a complete list and there are always better tools for the job out there. Take small steps and get comfy with tools and techniques to develop and at last improve your unique approach on a system.
 
@@ -161,7 +162,32 @@ Below you find just a few tools to start with. Of course this is not a complete 
 - [PSPY](https://github.com/DominicBreuker/pspy)
 - [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
 
-##### Hacking Resources & Tutorials
+#### Trainings
+
+If you feel you need to learn  fundamentals of a new topic or to improve you knowledge in specific areas, I would recommend checking out [TryHackMe](https://tryhackme.com/) which provides valuable learning  paths to various topics.
+
+Here are a few room recommendations for beginners.
+
+- [Learning Cyber Security](https://tryhackme.com/room/beginnerpathintro)
+- [Introductory Networking](https://tryhackme.com/room/introtonetworking)
+- [Intro to Offensive Security](https://tryhackme.com/room/introtooffensivesecurity)
+- [Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1)
+- [Linux Fundamentals Part 2](https://tryhackme.com/room/linuxfundamentalspart2)
+- [Linux Fundamentals Part 3](https://tryhackme.com/room/linuxfundamentalspart3)
+- [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx)
+- [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x)
+- [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx)
+- [Pentesting Fundamentals](https://tryhackme.com/room/pentestingfundamentals)
+- [Active Reconnaissance](https://tryhackme.com/room/activerecon)
+- [Nmap](https://tryhackme.com/room/furthernmap)
+- [Burp Suite: The Basics](https://tryhackme.com/room/burpsuitebasics)
+- [Web Application Security](https://tryhackme.com/room/introwebapplicationsecurity)
+- [OWASP Top 10](https://tryhackme.com/room/owasptop10)
+- [SQL Injection](https://tryhackme.com/room/sqlinjectionlm)
+- [Hydra](https://tryhackme.com/room/hydra)
+- [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro)
+
+#### Hacking Resources & Tutorials
 
 Here are a few resources and knowledgebases to cover various topics. Starting with writeup videos of `Ippsec` is always a good call.
 
