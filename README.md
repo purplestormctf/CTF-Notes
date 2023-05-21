@@ -62,6 +62,9 @@ There are some basic things you should be aware about when you approaching a new
 $ searchsploit <APPLICATION>
 ```
 
+- Try `default credentials` (https://github.com/ihebski/DefaultCreds-cheat-sheet) or `admin:admin`. Especially on `web applications`.
+- If you find credentials or just a password, always go for `credential reuse` and try if they work for another user as well.
+
 #### Checklist
 
 Depending on what a box offers to you, you can go through the following checklist.
@@ -141,6 +144,7 @@ Below you find just a few tools to start with. Of course this is not a complete 
 - [dirsearch](https://github.com/maurosoria/dirsearch)
 - [ffuf](https://github.com/ffuf/ffuf)
 - [wfuzz](https://github.com/asciimoo/wuzz)
+- [WPScan](https://github.com/wpscanteam/wpscan)
 
 ###### Database Assessment
 
