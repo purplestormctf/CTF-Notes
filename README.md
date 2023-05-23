@@ -193,7 +193,7 @@ Here are a few room recommendations for beginners.
 
 #### Hacking Resources & Tutorials
 
-Here are a few resources and knowledgebases to cover various topics. Starting with writeup videos of `Ippsec` is always a good call.
+Here are a few resources and knowledgebases to cover various topics. Starting with writeup videos of `IppSec` is always a good call.
 
 - [ippsec.rocks](https://ippsec.rocks/)
 - [Hacking Articles](https://www.hackingarticles.in/)
