@@ -35,13 +35,14 @@ $ sudo openvpn /PATH/TO/OVPNFILE/<USERNAME>.ovpn
 	- rockyou.txt (sudo gunzip /usr/share/wordlists/rockyou.txt.gz)
 	- /usr/share/wordlists/seclists (https://github.com/danielmiessler/SecLists)
 - If you are missing some tools, try to install them from the `Kali Linux repository`.
-- If a website is not reachable via `IP address` and redirects you, try to add it to the `/etc/hosts` file.
-- Always familiarize yourself with the tools you use and checkout their documentation as well as the parameter `-h`.
-- Don't run exploits from the internet without understanding what they are doing.
 
 ```c
 $ sudo apt-get install kali-linux-everything
 ```
+
+- If a website is not reachable via `IP address` and redirects you, try to add it to the `/etc/hosts` file.
+- Always familiarize yourself with the tools you use and checkout their documentation as well as the parameter `-h`.
+- Don't run exploits from the internet without understanding what they are doing.
 
 #### First Steps
 
