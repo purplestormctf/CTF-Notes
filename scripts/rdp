@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# simple rdp wrapper for xfreerdp to switch to evil-winrm faster (yes i am that lazy)
+
+usage() {
+    echo "usage: $(basename $0) -i '10.129.16.128' -u 'Administrator' -p 'P@s\$w0rd!' [-H 'NTLMHash']" >&2
+}
+
+if [ $# -eq 0 ]
+then
+    usage
+    exit 0
+fi
+
+while getopts ':i:u:p:H:' OPTION; do
+    case "$OPTION" in
+        i)  host="$OPTARG" ;;
+        u)  user="$OPTARG" ;;
+        p)
+            pass="$OPTARG"
+            xfreerdp /v:$host /u:$user /p:$pass /cert:ignore /dynamic-resolution +clipboard
+            ;;
+        H)
+            hash="$OPTARG"
+            xfreerdp /v:$host /u:$user /pth:$hash /cert:ignore /dynamic-resolution +clipboard
+            ;;
+        ?)
+            usage
+            ;;
+    esac
+done
+shift "$(($OPTIND -1))"
