@@ -18,11 +18,11 @@ while getopts ':i:u:p:H:' OPTION; do
         u)  user="$OPTARG" ;;
         p)
             pass="$OPTARG"
-            xfreerdp /v:$host /u:$user /p:$pass /cert:ignore /dynamic-resolution +clipboard
+            xfreerdp /v:"$host" /u:"$user" /p:"$pass" /cert:ignore /dynamic-resolution +clipboard
             ;;
         H)
             hash="$OPTARG"
-            xfreerdp /v:$host /u:$user /pth:$hash /cert:ignore /dynamic-resolution +clipboard
+            xfreerdp /v:"$host" /u:"$user" /pth:"$hash" /cert:ignore /dynamic-resolution +clipboard
             ;;
         ?)
             usage
