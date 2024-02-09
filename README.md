@@ -158,8 +158,8 @@ Below you find just a few tools to start with. Of course this is not a complete 
 ###### Password Attacks
 
 - [thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
-- [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec)
 - [hashcat](https://hashcat.net/hashcat/)
+- [NetExec](https://github.com/Pennyw0rth/NetExec)
 
 ###### Exploitation / Post Exploitation Tools
 
