@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="120" height="120" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/thm_logo.png"> &emsp; <img width="150" height="150" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/htb_logo.png"> &emsp;<img width="150" height="150" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/rwctf_logo.png">
+  <img width="120" height="120" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/thm_logo.png"> &emsp; <img width="150" height="180" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/vulnlab_logo.png"> &emsp;<img width="120" height="120" src="https://github.com/purplestormctf/CTF-Notes/blob/main/files/htb_logo.png">
 </p>
 
 # CTF-Notes
