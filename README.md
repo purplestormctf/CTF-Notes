@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="120" height="120" src="https://github.com/purplestormctf/CTF-Notes/blob/main/images/thm_logo.png"> &emsp; <img width="150" height="180" src="https://github.com/purplestormctf/CTF-Notes/blob/main/images/vulnlab_logo.png"> &emsp;<img width="120" height="120" src="https://github.com/purplestormctf/CTF-Notes/blob/main/images/htb_logo.png">
+  <img width="120" height="120" src="images/thm_logo.png"> &emsp; <img width="150" height="180" src="images/vulnlab_logo.png"> &emsp;<img width="120" height="120" src="images/htb_logo.png">
 </p>
 
 # CTF-Notes
@@ -12,13 +12,13 @@ This repository will contain various notes, code snippets, hints and different s
 
 ### Table of Contents
 
-- [Where to start](https://github.com/purplestormctf/CTF-Notes/tree/main#where-to-start)
-- [Basic Knowledge](https://github.com/purplestormctf/CTF-Notes/tree/main#basic-knowledge)
-- [First Steps](https://github.com/purplestormctf/CTF-Notes/tree/main#first-steps)
-- [Checklist](https://github.com/purplestormctf/CTF-Notes/tree/main#checklist)
-- [Tool Recommendations](https://github.com/purplestormctf/CTF-Notes/tree/main#tool-recommendations)
-- [Trainings](https://github.com/purplestormctf/CTF-Notes/tree/main#trainings)
-- [Hacking Resources & Tutorials](https://github.com/purplestormctf/CTF-Notes/tree/main#hacking-resources--tutorials)
+- [Where to start](#where-to-start)
+- [Basic Knowledge](#basic-knowledge)
+- [First Steps](#first-steps)
+- [Checklist](#checklist)
+- [Tool Recommendations](#tool-recommendations)
+- [Trainings](#trainings)
+- [Hacking Resources & Tutorials](#hacking-resources--tutorials)
 
 ### Where to Start
 
@@ -50,8 +50,8 @@ There are some basic things you should be aware about when you approaching a new
 
 - Make sure to take proper `notes`. Probably you want to concider to write them in `Markdown` and `Obsidian` for example. Here are a few alternatives:
 	- [cherrytree](https://github.com/giuspen/cherrytree)
-	- [Sublime Text](https://www.sublimetext.com/)
-	- [Dillinger.io](https://dillinger.io/)
+	- [Sublime Text](https://www.sublimetext.com)
+	- [Dillinger.io](https://dillinger.io)
 - Always keep some sort of `reconnaissance` running in the background like `directory busting` with `Gobuster`, which can take some time.
 - Make sure to `enumerate` every service and every endpoint properly. On a website for example, check for `usernames`, `email address schemes`, check the `source` of the website `click` or `hover over` every `link` you can find to see if they lead to something.
 - Check for already known `vulnerabilities` and `exploits`. Therefore you can just use `Google`. Here are a few examples:
@@ -61,7 +61,7 @@ There are some basic things you should be aware about when you approaching a new
 	- `<APPLICATION> <VERSION> poc`
 	- `<APPLICATION> <VERSION> github`
 	- `<APPLICATION> <VERSION> github poc`
-	Alternatively check [Exploit Database](https://www.exploit-db.com/), [Sploitus](https://sploitus.com/) or use `searchsploit` from the command line.
+	Alternatively check [Exploit Database](https://www.exploit-db.com), [Sploitus](https://sploitus.com) or use `searchsploit` from the command line.
 
 ```c
 $ searchsploit <APPLICATION>
@@ -114,7 +114,7 @@ $ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110
   - Then download the `CA Certificate`.
   - Depending on your browser, switch to `settings` and then to `certificates`.
   - Import the `certificate`.
-  - We recommend to use [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) and configure it there but you can also go with the `proxy settings` of your browser.
+  - We recommend to use [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard) and configure it there but you can also go with the `proxy settings` of your browser.
 
 | Setting | Value |
 | --- | --- |
@@ -158,7 +158,7 @@ Below you find just a few tools to start with. Of course this is not a complete 
 ###### Password Attacks
 
 - [thc-hydra](https://github.com/vanhauser-thc/thc-hydra)
-- [hashcat](https://hashcat.net/hashcat/)
+- [hashcat](https://hashcat.net/hashcat)
 - [NetExec](https://github.com/Pennyw0rth/NetExec)
 
 ###### Exploitation / Post Exploitation Tools
@@ -173,7 +173,7 @@ Below you find just a few tools to start with. Of course this is not a complete 
 
 #### Trainings
 
-If you feel you need to learn  fundamentals of a new topic or to improve you knowledge in specific areas, I would recommend checking out [TryHackMe](https://tryhackme.com/) which provides valuable learning  paths to various topics.
+If you feel you need to learn  fundamentals of a new topic or to improve you knowledge in specific areas, I would recommend checking out [TryHackMe](https://tryhackme.com) which provides valuable learning  paths to various topics.
 
 Here are a few room recommendations for beginners.
 
