@@ -19,6 +19,7 @@ This repository will contain various notes, code snippets, hints and different s
 - [Tool Recommendations](#tool-recommendations)
 - [Trainings](#trainings)
 - [Hacking Resources & Tutorials](#hacking-resources--tutorials)
+- [Purplestorm Wallpapers](#purplestorm-wallpapers)
 
 ### Where to Start
 
@@ -208,5 +209,21 @@ Here are a few resources and knowledgebases to cover various topics. Starting wi
 - [pentestmonkey](https://pentestmonkey.net/)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [GTFOBins](https://gtfobins.github.io/)
+
+### Purplestorm Wallpapers
+
+With a little modifications to gorgeus Daena Key and Dominic Mayer art, we present you to use and download `Purplestorm Wallpapers`.
+<p align="center">
+  <img src="images/dominic-mayer-purplestorm.png">
+</p>
+<p align="center">
+  <img src="images/daena-key-purplestorm.png">
+</p>
+<p align="center">
+  <img src="images/daena-key-purplestorm2.png">
+</p>
+<p align="center">
+  <img src="images/htb-purplestorm.png">
+</p>
 
 Also feel free to get in touch with us on our [Discord](https://discord.gg/JbGr5gA3KY), we are all willing to help!
