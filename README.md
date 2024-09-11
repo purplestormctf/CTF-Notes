@@ -212,9 +212,9 @@ Here are a few resources and knowledgebases to cover various topics. Starting wi
 
 ### Purplestorm Wallpapers
 
-With a little modifications to gorgeus Daena Key and Dominic Mayer art, we present you to use and download `Purplestorm Wallpapers`.
+With a little modifications to gorgeus Daena Key and Dominik Mayer art, we present you to use and download `Purplestorm Wallpapers`.
 <p align="center">
-  <img src="images/dominic-mayer-purplestorm.png">
+  <img src="images/dominik-mayer-purplestorm.png">
 </p>
 <p align="center">
   <img src="images/daena-key-purplestorm.png">
