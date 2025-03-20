@@ -28,7 +28,7 @@ This repository will contain various notes, code snippets, hints and different s
 - It is recommended to work in a virtual environment like an `Kali Linux` instance running on `VirtualBox` or `VMware Player`.
 - Make sure you downloaded the correct `.ovpn` file to connect to the network and access your box.
 
-```c
+```console
 $ sudo openvpn /PATH/TO/OVPNFILE/<USERNAME>.ovpn
 ```
 
@@ -37,7 +37,7 @@ $ sudo openvpn /PATH/TO/OVPNFILE/<USERNAME>.ovpn
 	- /usr/share/wordlists/seclists (https://github.com/danielmiessler/SecLists)
 - If you are missing some tools, try to install them from the `Kali Linux repository`.
 
-```c
+```console
 $ sudo apt-get install kali-linux-everything
 ```
 
@@ -64,7 +64,7 @@ There are some basic things you should be aware about when you approaching a new
 	- `<APPLICATION> <VERSION> github poc`
 	Alternatively check [Exploit Database](https://www.exploit-db.com), [Sploitus](https://sploitus.com) or use `searchsploit` from the command line.
 
-```c
+```console
 $ searchsploit <APPLICATION>
 ```
 
@@ -77,7 +77,7 @@ Depending on what a box offers to you, you can go through the following checklis
 
 1. Run nmap!
 
-```c
+```console
 $ sudo nmap -sC -sV -p- <RHOST>
 $ sudo nmap -sC -sV -Pn -p- <RHOST>
 $ sudo nmap -sV -sU <RHOST>
@@ -89,24 +89,24 @@ $ sudo nmap -sV -sU <RHOST>
 
 3. Also, give `whatweb` a try.
 
-```c
+```console
 $ whatweb http://<RHOST>
 ```
 
 4. Ob websites, try `directory busting` with different wordlists.
 
-```c
+```console
 $ gobuster dir -w /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt
 ```
 
 5. Checking for `subdomains`. If a box offers you a `vhost` entry like `http://openadmin.htb/` for example, it is always worth it to see if there are more `vhosts` configured.
 
-```c
+```console
 $ gobuster vhost -u <RHOST> -t 50 -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt
 $ gobuster vhost -u <RHOST> -t 50 -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
 ```
 
-```c
+```console
 $ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.openadmin.htb" -u http://openadmin.htb --mc all --fs <NUMBER>
 ```
   
@@ -213,6 +213,7 @@ Here are a few resources and knowledgebases to cover various topics. Starting wi
 ### Purplestorm Wallpapers
 
 With a little modifications to gorgeus Daena Key and Dominik Mayer art, we present you to use and download `Purplestorm Wallpapers`.
+
 <p align="center">
   <img src="images/dominik-mayer-purplestorm.png">
 </p>
