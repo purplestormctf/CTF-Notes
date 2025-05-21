@@ -52,7 +52,8 @@ There are some basic things you should be aware about when you approaching a new
 - Make sure to take proper `notes`. Probably you want to concider to write them in `Markdown` and `Obsidian` for example. Here are a few alternatives:
 	- [cherrytree](https://github.com/giuspen/cherrytree)
 	- [Sublime Text](https://www.sublimetext.com)
-	- [Dillinger.io](https://dillinger.io)
+	- [Notion](https://www.notion.com)
+	- [Capacities](https://capacities.io)
 - Always keep some sort of `reconnaissance` running in the background like `directory busting` with `Gobuster`, which can take some time.
 - Make sure to `enumerate` every service and every endpoint properly. On a website for example, check for `usernames`, `email address schemes`, check the `source` of the website `click` or `hover over` every `link` you can find to see if they lead to something.
 - Check for already known `vulnerabilities` and `exploits`. Therefore you can just use `Google`. Here are a few examples:
