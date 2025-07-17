@@ -63,6 +63,7 @@ There are some basic things you should be aware about when you approaching a new
 	- `<APPLICATION> <VERSION> poc`
 	- `<APPLICATION> <VERSION> github`
 	- `<APPLICATION> <VERSION> github poc`
+	- `<APPLICATION> <VERSION> github advisory`
 	Alternatively check [Exploit Database](https://www.exploit-db.com), [Sploitus](https://sploitus.com) or use `searchsploit` from the command line.
 
 ```console
