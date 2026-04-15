@@ -229,4 +229,4 @@ With a little modifications to gorgeus Daena Key and Dominik Mayer art, we prese
   <img src="images/htb-purplestorm.png">
 </p>
 
-Also feel free to get in touch with us on our [Discord](https://discord.gg/JbGr5gA3KY), we are all willing to help!
+Also feel free to get in touch with us on our [Discord](https://discord.gg/purplestorm), we are all willing to help!
